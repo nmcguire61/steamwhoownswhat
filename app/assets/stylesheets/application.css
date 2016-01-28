@@ -1,0 +1,146 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree .
+*= require_self
+*/
+
+body {
+  background-color: #099;
+  color: #fff;
+  padding-top: 10px;
+  /*box-sizing: border-box;*/
+}
+
+header {
+  
+  margin: 0 20%;
+  width: 60%;
+  padding: 0 auto;
+  text-align: center;
+
+}
+
+.nav ul{
+  list-style: none;
+}
+
+a.btn {
+  
+  color: #fff;
+}
+
+p {
+  padding: 0 10px;
+}
+
+h2 {
+  /*text-indent: 10%;*/
+}
+
+.shadow{
+  border: solid 2px #000;
+  background-color: #1B2838;
+  box-shadow: inset 0px 0px 3px 5px #009999,0px 2px 4px 0px #000;
+  -webkit-box-shadow: inset 0px 0px 3px 5px #009999,0px 2px 4px 0px #000;
+  -moz-box-shadow: inset 0px 0px 3px 5px #009999,0px 2px 4px 0px #000;
+  -o-box-shadow: inset 0px 0px 3px 5px #009999,0px 2px 4px 0px #000;
+}
+
+.shadow2{
+  border: solid 2px #000;
+  background-color: #099;
+  box-shadow: inset 0px 1px 3px 2px #000,0px 2px 4px 2px #099;
+  -webkit-box-shadow: inset 0px 1px 3px 2px #000,0px 2px 4px 2px #099;
+  -moz-box-shadow: inset 0px 1px 3px 2px #000,0px 2px 4px 2px #099;
+  -o-box-shadow: inset 0px 1px 3px 2px #000,0px 2px 4px 2px #099;
+}
+
+
+
+.flexbox {
+  list-style: none;
+  width: 100%;
+  margin: 20 auto;
+  padding: 0 0;
+  /*margin: 0 10%;*/
+  -moz-column-count: 3;
+  -moz-column-gap: 2em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 2em;
+  column-count: 3;
+  column-gap: 2em;
+  box-sizing: border-box;
+}
+
+.column {
+  height: auto;
+  -moz-column-count: 1;
+  -moz-column-gap: 0;
+  -webkit-column-count: 1;
+  -webkit-column-gap: 0;
+  column-count: 1;
+  column-gap: 0;
+  box-sizing: border-box;
+}
+
+.column2 {
+  background-color: #099;
+  display: inline-block;
+  width: 90%;
+  margin: -5px 20px 10px 20px;
+  padding: 0 auto 10px auto;
+  overflow-y: auto;
+  -webkit-transform: translateZ(0); /*supposedly fixed chrome issues but didn't seem to work for me*/
+  max-height: 380px;
+  /*max-width: 100%;*/
+  /*text-align: center;*/
+}
+
+.make_it_so_button {
+
+  margin: 20px auto;
+  width: 95%;
+  height: auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.make_it_so_button button {
+  margin: 20px 0 10px 0;
+  height: 60px;
+  width: 20%;
+  color: #fff;
+  font-size: 20px;
+
+  /*find something to unstyle button*/
+}
+
+.front_page_field {
+  height: 70px;
+  width: 60%;
+  margin: auto;
+  padding: auto;
+  /*padding-top: 20px;*/
+}
+
+.input_box {
+  font-size: 20px;
+}
+
+.front_page_field h2 {
+
+}
+
+.result_body {
+  padding-top: 20px;
+}

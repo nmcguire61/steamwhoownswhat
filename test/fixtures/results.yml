@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  steamid1: MyString
+  steamid2: MyString
+  steamid3: MyString
+
+two:
+  steamid1: MyString
+  steamid2: MyString
+  steamid3: MyString

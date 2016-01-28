@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results Page</title>
+</head>
+<body>
+
+  <header class="header shadow">
+    <h1>Here are your games!</h1>
+    <nav class="nav">
+      <ul>
+        <li><%=link_to 'Lets Go Again', root_path, :class => 'btn' %></li>
+      </ul>
+  </header>
+  
+  <div class="flexbox result_body">
+    <div class="column shadow">
+      <h2><%= "#{@first_player.summary.profile['personaname']}"%></h2>
+      <div class="column2 shadow2">
+        <p>
+          <% @first_library_names.each do |game| %>
+            <%= game %><br>
+          <% end %>
+        </p>
+      </div>
+    </div>
+    
+    <div class="column shadow"> 
+      <h2><%= "#{@second_player.summary.profile['personaname']}"%></h2>
+        <div class="column2 shadow2">
+        <p>
+          <% @second_library_names.each do |game| %>
+            <%= game %><br>
+          <% end %>
+        </p>
+      </div>
+    </div>
+    <div class="column shadow">
+      <h2><%= "#{@third_player.summary.profile['personaname']}"%></h2>
+      <div class="column2 shadow2">
+        <p>
+          <% @third_library_names.each do |game| %>
+            <%= game %><br>
+          <% end %>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
