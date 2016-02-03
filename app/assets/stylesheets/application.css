@@ -115,6 +115,12 @@ h2 {
   text-align: center;
 }
 
+.toggle button {
+  font-size: 20px;
+  height: 26px;
+  width: 10%;
+}
+
 .make_it_so_button button {
   margin: 20px 0 10px 0;
   height: 60px;
