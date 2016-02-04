@@ -3,7 +3,7 @@
 <head>
   <title>Results Page</title>
 </head>
-<body>
+<body class="shadow">
 
   <header class="header shadow">
     <h1>Here are your games!</h1>
@@ -15,7 +15,7 @@
   
   <div class="flexbox result_body">
     <div class="column shadow">
-      <h2><%= "#{@first_player.summary.profile['personaname']}"%></h2>
+      <h2 class="personaname"><%= "#{@first_player.summary.profile['personaname']}"%></h2>
       <div class="column2 shadow2">
         <p>
           <% @first_library_names.each do |game| %>
@@ -26,7 +26,7 @@
     </div>
     
     <div class="column shadow"> 
-      <h2><%= "#{@second_player.summary.profile['personaname']}"%></h2>
+      <h2 class="personaname"><%= "#{@second_player.summary.profile['personaname']}"%></h2>
         <div class="column2 shadow2">
         <p>
           <% @second_library_names.each do |game| %>
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="column shadow">
-      <h2><%= "#{@third_player.summary.profile['personaname']}"%></h2>
+      <h2 class="personaname"><%= "#{@third_player.summary.profile['personaname']}"%></h2>
       <div class="column2 shadow2">
         <p>
           <% @third_library_names.each do |game| %>

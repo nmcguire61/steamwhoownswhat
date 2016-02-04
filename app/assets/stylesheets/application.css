@@ -43,8 +43,8 @@ p {
   padding: 0 10px;
 }
 
-h2 {
-  /*text-indent: 10%;*/
+.personaname{
+  text-indent: 5%;
 }
 
 .shadow{
@@ -115,10 +115,11 @@ h2 {
   text-align: center;
 }
 
-.toggle {
-  font-size: 20px;
-  height: 26px;
-  width: 6%;
+.make_it_so_button .toggle {
+  margin: 0;
+  font-size: 16px;
+  height: 30px;
+  width: 10%;
 }
 
 .make_it_so_button button {
@@ -149,4 +150,6 @@ h2 {
 
 .result_body {
   padding-top: 20px;
+  width: 98%;
+  margin: 0 auto 10px auto;
 }
