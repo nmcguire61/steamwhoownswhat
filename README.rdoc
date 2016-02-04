@@ -5,7 +5,9 @@ Please note that I have not been able to get this app to properly display in chr
 At the moment it is very breakable and will require 3 steam id's to be entered.  You can use your own or use these three if you wish (the number is all that is needed):
 
 76561197999244486 - Trellard
+
 76561198003871749 - Osborne1992
+
 76561198007241461 - bitemeagain
 
 At this moment in time the only search functionality available in the compare page is the find functionality on your browser (although it is oddly effective).
