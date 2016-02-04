@@ -115,10 +115,10 @@ h2 {
   text-align: center;
 }
 
-.toggle button {
+.toggle {
   font-size: 20px;
   height: 26px;
-  width: 10%;
+  width: 6%;
 }
 
 .make_it_so_button button {
