@@ -12,6 +12,5 @@ At the moment it is very breakable and will require 3 steam id's to be entered. 
 
 At this moment in time the only search functionality available in the compare page is the find functionality on your browser (although it is oddly effective).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+
 
